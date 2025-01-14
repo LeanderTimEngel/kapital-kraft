@@ -76,6 +76,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={`${inter.className} bg-background text-foreground min-h-screen flex flex-col`}>
+        <Analytics />
         <ScrollToTop />
         <Navbar />
         <main className="flex-1 pt-16">
