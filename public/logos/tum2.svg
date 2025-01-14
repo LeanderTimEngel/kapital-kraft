@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="logo" viewBox="0 0 75 75">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-2{fill:#0065bd;}</style>
+  </defs>
+  <title>tum-gruendungsberatung</title>
+  <g id="tum-gruendungsberatung">
+    <rect class="cls-1" width="75" height="75"></rect>
+    <polygon class="cls-2" points="37.5 25 37.5 45.51 32.37 45.51 32.37 25 13.78 25 13.78 29.49 18.27 29.49 18.27 50 22.76 50 22.76 29.49 27.89 29.49 27.89 50 41.99 50 41.99 29.49 47.12 29.49 47.12 50 51.6 50 51.6 29.49 56.73 29.49 56.73 50 61.22 50 61.22 25 37.5 25"></polygon>
+  </g>
+</svg>

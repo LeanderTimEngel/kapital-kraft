@@ -9,11 +9,11 @@ const stats = [
 
 const universities = [
   { name: 'Technische Universität München', logo: '/logos/tum.png' },
-  { name: 'Humboldt-Universität zu Berlin', logo: '/logos/hu-berlin.png' },
+  { name: 'Humboldt-Universität zu Berlin', logo: '/logos/hu.png' },
   { name: 'WHU - Otto Beisheim School of Management', logo: '/logos/whu.png' },
-  { name: 'RWTH Aachen', logo: '/logos/rwth-aachen.png' },
+  { name: 'RWTH Aachen', logo: '/logos/rwth.png' },
   { name: 'Universität Mannheim', logo: '/logos/uni-mannheim.png' },
-  { name: 'Frankfurt School of Finance & Management', logo: '/logos/fs-frankfurt.png' },
+  { name: 'Frankfurt School of Finance & Management', logo: '/logos/fs.png' },
 ]
 
 export function SocialProof() {
@@ -29,8 +29,8 @@ export function SocialProof() {
               <Image
                 src={university.logo}
                 alt={`${university.name} logo`}
-                width={100}
-                height={40}
+                width={200}
+                height={70}
                 className="max-h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300"
               />
             </div>

@@ -2,7 +2,7 @@ import { Twitter, Linkedin, Facebook, Instagram } from 'lucide-react'
 import Link from 'next/link'
 
 interface SocialIconProps {
-  platform: 'twitter' | 'linkedin' | 'facebook' | 'instagram'
+  platform: 'twitter' | 'linkedin' | 'instagram'
   url: string
 }
 
@@ -11,7 +11,7 @@ const SocialIcon = ({ platform, url }: SocialIconProps) => {
   const icons = {
     twitter: <Twitter className={iconClasses} />,
     linkedin: <Linkedin className={iconClasses} />,
-    facebook: <Facebook className={iconClasses} />,
+    //facebook: <Facebook className={iconClasses} />,
     instagram: <Instagram className={iconClasses} />,
   }
 
@@ -32,10 +32,10 @@ const SocialIcon = ({ platform, url }: SocialIconProps) => {
 export function SocialIcons() {
   return (
     <div className="flex space-x-3">
-      <SocialIcon platform="twitter" url="https://twitter.com/ventureboard" />
-      <SocialIcon platform="linkedin" url="https://www.linkedin.com/company/ventureboard" />
-      <SocialIcon platform="facebook" url="https://www.facebook.com/ventureboard" />
-      <SocialIcon platform="instagram" url="https://www.instagram.com/ventureboard" />
+      <SocialIcon platform="twitter" url="https://twitter.com/" />
+      <SocialIcon platform="linkedin" url="https://www.linkedin.com/" />
+      {/* <SocialIcon platform="facebook" url="https://www.facebook.com/ventureboard" /> */}
+      <SocialIcon platform="instagram" url="https://www.instagram.com/" />
     </div>
   )
 }
