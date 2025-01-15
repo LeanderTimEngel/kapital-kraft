@@ -50,7 +50,7 @@ export default function VCLebenslaufVorlagePage() {
                {isDownloading ? 'Wird heruntergeladen...' : (
                  <>
                    <Download className="mr-2 h-5 w-5" />
-                   Lebenslauf-Vorlage herunterladen
+                   Vorlage herunterladen
                  </>
                )}
              </Button>

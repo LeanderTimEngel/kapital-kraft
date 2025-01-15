@@ -2,11 +2,11 @@ export function CVPreview() {
   return (
     <div className="max-w-2xl mx-auto p-4 bg-white shadow-lg font-sans text-gray-900">
       {/* Header */}
-      <div className="flex justify-between items-center border-b-2 border-gray-300 pb-2 mb-4">
-        <div>
-          <h1 className="text-xl font-bold">Max Mustermann</h1>
-          <p className="text-sm text-gray-600">Musterstraße 123, 10115 Berlin</p>
-          <p className="text-sm text-gray-600">max.mustermann@email.de | +49 123 456789</p>
+      <div className="border-b-2 border-gray-300 pb-2 mb-4">
+        <h1 className="text-2xl font-bold text-center md:text-left">Max Mustermann</h1>
+        <div className="text-center md:text-left text-sm text-gray-600">
+          <p>Musterstraße 123, 10115 Berlin</p>
+          <p>max.mustermann@email.de | +49 123 456789</p>
         </div>
       </div>
 
@@ -14,13 +14,13 @@ export function CVPreview() {
       <section className="mb-4">
         <h2 className="text-lg font-semibold uppercase text-gray-800 mb-2">Ausbildung</h2>
         <div className="mb-2">
-          <div className="flex justify-between text-gray-800">
+          <div className="flex flex-col md:flex-row justify-between text-gray-800">
             <strong>Technische Universität Berlin</strong>
-            <span>Berlin, Deutschland</span>
+            <span className="text-sm md:text-base">Berlin, Deutschland</span>
           </div>
-          <div className="flex justify-between text-gray-600">
+          <div className="flex flex-col md:flex-row justify-between text-gray-600">
             <em>Master of Business Administration</em>
-            <span>Abschluss 2024</span>
+            <span className="text-sm md:text-base">Abschluss 2024</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Abschluss mit Auszeichnung (Note: 1,3)</li>
@@ -28,13 +28,13 @@ export function CVPreview() {
           </ul>
         </div>
         <div>
-          <div className="flex justify-between text-gray-800">
+          <div className="flex flex-col md:flex-row justify-between text-gray-800">
             <strong>Universität Hamburg</strong>
-            <span>Hamburg, Deutschland</span>
+            <span className="text-sm md:text-base">Hamburg, Deutschland</span>
           </div>
-          <div className="flex justify-between text-gray-600">
+          <div className="flex flex-col md:flex-row justify-between text-gray-600">
             <em>Bachelor of Science in Wirtschaftsinformatik</em>
-            <span>10/2018 - 09/2022</span>
+            <span className="text-sm md:text-base">10/2018 - 09/2022</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Abschluss mit Auszeichnung (Note: 1,5)</li>
@@ -47,13 +47,13 @@ export function CVPreview() {
       <section className="mb-4">
         <h2 className="text-lg font-semibold uppercase text-gray-800 mb-2">Berufserfahrung</h2>
         <div className="mb-2">
-          <div className="flex justify-between text-gray-800">
+          <div className="flex flex-col md:flex-row justify-between text-gray-800">
             <strong>High-Tech Gründerfonds</strong>
-            <span>Berlin, Deutschland</span>
+            <span className="text-sm md:text-base">Berlin, Deutschland</span>
           </div>
-          <div className="flex justify-between text-gray-600">
+          <div className="flex flex-col md:flex-row justify-between text-gray-600">
             <em>Venture Capital Praktikant</em>
-            <span>05/2023 - 08/2023</span>
+            <span className="text-sm md:text-base">05/2023 - 08/2023</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Mitwirkung bei Due Diligence und Erstellung des CIM</li>
@@ -62,13 +62,13 @@ export function CVPreview() {
           </ul>
         </div>
         <div>
-          <div className="flex justify-between text-gray-800">
+          <div className="flex flex-col md:flex-row justify-between text-gray-800">
             <strong>N26</strong>
-            <span>Berlin, Deutschland</span>
+            <span className="text-sm md:text-base">Berlin, Deutschland</span>
           </div>
-          <div className="flex justify-between text-gray-600">
+          <div className="flex flex-col md:flex-row justify-between text-gray-600">
             <em>Produktmanagement Praktikant</em>
-            <span>05/2022 - 08/2022</span>
+            <span className="text-sm md:text-base">05/2022 - 08/2022</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Design und Implementierung von A/B-Tests</li>
