@@ -9,8 +9,8 @@ export default function AboutUsPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center font-serif">Über FundKarriere</h1>
         <div className="max-w-3xl mx-auto">
           <Image
-            src="/images/team.jpg"
-            alt="FundKarriere Team"
+            src="/images/about-fundkarriere.png"
+            alt="FundKarriere About"
             width={800}
             height={400}
             className="rounded-lg shadow-md mb-8"
