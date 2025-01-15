@@ -12,7 +12,7 @@ const topVCFirms = [
   {
     id: "htgf",
     name: "High-Tech Gründerfonds",
-    logo: "/logos/htgf.png",
+    logo: "/logos/htgf.jpeg",
     description: "Einer der aktivsten Seed-Investoren in Europa",
     location: "Bonn, Deutschland",
     investmentFocus: ["Software", "Medizintechnik", "Chemie", "Industrielle Technologie"],
@@ -20,7 +20,7 @@ const topVCFirms = [
   {
     id: "earlybird",
     name: "Earlybird Venture Capital",
-    logo: "/logos/earlybird.png",
+    logo: "/logos/earlybird.jpeg",
     description: "Führender Venture-Capital-Investor für Technologie-Innovatoren in Europa",
     location: "Berlin, München, Deutschland",
     investmentFocus: ["Enterprise Software", "FinTech", "AI", "Mobility"],
@@ -28,7 +28,7 @@ const topVCFirms = [
   {
     id: "projecta",
     name: "Project A Ventures",
-    logo: "/logos/projecta.png",
+    logo: "/logos/projecta.jpeg",
     description: "Venture-Capital-Firma mit starkem operativen Fokus",
     location: "Berlin, Deutschland",
     investmentFocus: ["Digital Platforms", "SaaS", "E-Commerce", "Infrastructure"],

@@ -14,19 +14,19 @@ export default function NotFound() {
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-3">
                 <span className="text-4xl">😪</span>
-                This site does not exist anymore
+                Diese Seite existiert nicht mehr
               </h1>
               <p className="text-white/60 text-lg">
-                It's most likely that this job post has expired. But don't worry.
+                Es ist wahrscheinlich, dass diese Job-Anzeige abgelaufen ist. Aber keine Sorge.
                 <br />
-                We are adding more jobs every week.
+                Wir fügen mehr Jobs jeden Woche hinzu.
               </p>
             </div>
 
             <div className="flex justify-center mb-12">
               <Link href="/venture-capital-jobs">
                 <Button className="bg-[#252729] border border-white/10 text-white hover:bg-white/10">
-                  See all jobs
+                  Alle Jobs ansehen
                 </Button>
               </Link>
             </div>
@@ -34,7 +34,7 @@ export default function NotFound() {
             <div className="border-t border-white/10 pt-12">
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-bold text-white mb-2">
-                  Subscribe to our newsletter and don't miss a job
+                  Abonniere unseren Newsletter und verpasse keinen Job
                 </h2>
               </div>
 
@@ -42,33 +42,34 @@ export default function NotFound() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <Input
                     type="text"
-                    placeholder="Your First Name"
+                    placeholder="Dein Vorname"
                     className="bg-[#1C1E21] border-white/10 text-white placeholder:text-white/40"
                   />
                   <Input
                     type="email"
-                    placeholder="Email Address"
+                    placeholder="Deine E-Mail Adresse"
                     className="bg-[#1C1E21] border-white/10 text-white placeholder:text-white/40"
                   />
                 </div>
                 <Button className="w-full bg-[#FFEB0A] text-black hover:bg-[#FFEB0A]/90">
-                  Join now
+                  Jetzt abonnieren
                 </Button>
               </form>
 
               <p className="text-center text-white/40 text-sm mb-8">
-                By signing up you agree to our{' '}
+                Durch das Abonnieren erklärst du dich mit unseren{' '}
                 <Link href="/terms" className="text-[#FFEB0A] hover:underline">
-                  Terms & Conditions
+                  Nutzungsbedingungen
                 </Link>
+                und unseren Datenschutzbestimmungen einverstanden.
               </p>
 
               <div className="text-center text-white/40 text-sm mb-8">
-                Used by students from 👋 and many more
+                Verwendet von Studenten aus 🇩🇪 und vielen mehr
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
-                {['Stanford', 'Harvard', 'MIT', 'Cambridge', 'Penn'].map((university) => (
+                {['TUM', 'LMU', 'WHU', 'RWTH', 'TU Berlin'].map((university) => (
                   <div
                     key={university}
                     className="w-32 h-12 bg-white/5 rounded-lg flex items-center justify-center"

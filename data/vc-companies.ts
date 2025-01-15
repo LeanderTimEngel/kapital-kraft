@@ -17,7 +17,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "htgf",
     name: "High-Tech Gründerfonds",
-    logo: "/logos/htgf.png",
+    logo: "/logos/htgf.jpeg",
     description: "Seed-Investor für innovative Technologieunternehmen",
     location: "Bonn, Deutschland",
     founded: "2005",
@@ -31,7 +31,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "earlybird",
     name: "Earlybird Venture Capital",
-    logo: "/logos/earlybird.png",
+    logo: "/logos/earlybird.jpeg",
     description: "Europäischer Venture-Capital-Investor für Technologie-Innovatoren",
     location: "Berlin, München, Deutschland",
     founded: "1997",
@@ -45,7 +45,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "projecta",
     name: "Project A Ventures",
-    logo: "/logos/projecta.png",
+    logo: "/logos/projecta.jpeg",
     description: "Venture-Capital-Firma mit operativem Fokus",
     location: "Berlin, Deutschland",
     founded: "2012",
@@ -59,7 +59,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "lakestar",
     name: "Lakestar",
-    logo: "/logos/lakestar.png",
+    logo: "/logos/lakestar.jpeg",
     description: "Globaler Venture-Capital-Investor für Technologieunternehmen",
     location: "Zürich, Schweiz",
     founded: "2012",
@@ -73,7 +73,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "holtzbrinck",
     name: "Holtzbrinck Ventures",
-    logo: "/logos/holtzbrinck.png",
+    logo: "/logos/holtzbrinck.jpeg",
     description: "Führender europäischer Frühphasen-Venture-Capital-Investor",
     location: "München, Deutschland",
     founded: "2000",
@@ -87,7 +87,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "acton",
     name: "Acton Capital",
-    logo: "/logos/acton.png",
+    logo: "/logos/acton.jpeg",
     description: "Venture-Capital-Firma mit Fokus auf wachstumsstarke Digitalunternehmen",
     location: "München, Deutschland",
     founded: "1999",
@@ -99,23 +99,9 @@ export const vcCompanies: VCCompany[] = [
     portfolioSize: "80+"
   },
   {
-    id: "btov",
-    name: "btov Partners",
-    logo: "/logos/btov.png",
-    description: "Europäischer Venture-Capital-Investor mit Fokus auf digitale und industrielle Technologien",
-    location: "Berlin, St. Gallen, Luxemburg",
-    founded: "2000",
-    website: "https://btov.vc/",
-    linkedin: "https://www.linkedin.com/company/btov-partners/",
-    twitter: "https://twitter.com/btovPartners",
-    investmentFocus: ["Digital Tech", "Industrial Tech", "Life Sciences"],
-    teamSize: "30+",
-    portfolioSize: "120+"
-  },
-  {
     id: "speedinvest",
     name: "Speedinvest",
-    logo: "/logos/speedinvest.png",
+    logo: "/logos/speedinvest.jpeg",
     description: "Paneuropäischer Frühphasen-Venture-Capital-Fonds",
     location: "Wien, Berlin, London, München, Paris",
     founded: "2011",
@@ -129,7 +115,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "cherry",
     name: "Cherry Ventures",
-    logo: "/logos/cherry.png",
+    logo: "/logos/cherry.jpeg",
     description: "Frühphasen-Venture-Capital-Firma mit Fokus auf Europa",
     location: "Berlin, Deutschland",
     founded: "2013",
@@ -143,7 +129,7 @@ export const vcCompanies: VCCompany[] = [
   {
     id: "point9",
     name: "Point Nine",
-    logo: "/logos/point9.png",
+    logo: "/logos/pointnine.jpeg",
     description: "Frühphasen-Venture-Capital-Firma mit Fokus auf B2B SaaS und Marketplaces",
     location: "Berlin, Deutschland",
     founded: "2011",

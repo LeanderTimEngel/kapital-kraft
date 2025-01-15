@@ -2,22 +2,22 @@ import Image from 'next/image'
 
 const testimonials = [
   {
-    content: "NexusVC hat mir geholfen, meine Traumposition bei einem Top-VC in Berlin zu finden. Die Stellenempfehlungen waren perfekt auf mein Profil zugeschnitten!",
-    author: "Lisa Müller",
-    role: "Analyst bei Project A Ventures",
-    avatar: "/avatars/lisa-mueller.jpg"
+    content: "Habe über FundKarriere ein Praktikum bei Capnamic in Köln gemacht. Bin super zufrieden mit der Plattform und der Unterstützung.",
+    author: "Jannis Cronjäger",
+    role: "Visiting Analyst bei Capnamic",
+    avatar: "/avatars/jannis.jpeg"
   },
   {
-    content: "Als Personalverantwortlicher habe ich über FundKarriere außergewöhnliche Talente für unser Team gefunden. Die Qualität der Kandidaten und die Effizienz der Plattform sind unübertroffen.",
-    author: "Markus Schmidt",
-    role: "Partner bei High-Tech Gründerfonds",
-    avatar: "/avatars/markus-schmidt.jpg"
+    content: "Ich bin über FundKarriere auf JOIN Capital und deren Ausschreibung für einen Visiting Analyst aufmerksam geworden. Top das man hier alles auf einen Blick hat.",
+    author: "Leonard Jahn",
+    role: "Visiting Analyst bei JOIN Capital",
+    avatar: "/avatars/leo.jpeg"
   },
   {
-    content: "Die CV-Vorlage und Karriereressourcen auf FundKarriere waren entscheidend für meinen Einstieg ins Venture Capital. Ich habe den Sprung von einem Tech-Background zu einer VC-Analyst-Position in nur 2 Monaten geschafft!",
+    content: "Ich platziere hier gerne Anzeigen für offene Stellen und finde durch die Plattform immer wieder passende Kandidaten.",
     author: "Julia Weber",
-    role: "Analyst bei Earlybird Venture Capital",
-    avatar: "/avatars/julia-weber.jpg"
+    role: "VC Recruiter",
+    avatar: "/avatars/max2.jpg"
   }
 ]
 
@@ -57,7 +57,7 @@ export function Testimonials() {
         </div>
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-600">
-            Schließe dich Tausenden von Profis an, die ihre VC-Karriere mit NexusVC beschleunigt haben
+            Schließe dich Tausenden von Profis an, die ihre VC-Karriere mit FundKarriere beschleunigt haben
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Lies mehr Erfolgsgeschichten in unserem Blog

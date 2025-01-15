@@ -27,14 +27,14 @@ export function NewsletterModal({ isOpen, onClose }: { isOpen: boolean; onClose:
 
    if (result.error) {
      toast({
-       title: 'Subscription Failed',
+       title: 'Subscription fehlgeschlagen',
        description: result.error,
        variant: 'destructive',
      })
    } else {
      toast({
-       title: 'Subscription Successful',
-       description: 'You have successfully subscribed to our newsletter!',
+       title: 'Subscription erfolgreich',
+       description: 'Du hast dich erfolgreich für unseren Newsletter angemeldet!',
        variant: 'default',
      })
      setEmail('')
@@ -56,16 +56,16 @@ export function NewsletterModal({ isOpen, onClose }: { isOpen: boolean; onClose:
        </button>
        
        <div className="text-center mb-4">
-         <h2 className="text-2xl font-bold text-gray-900 mb-2">Stay Updated</h2>
+         <h2 className="text-2xl font-bold text-gray-900 mb-2">Bleib auf dem Laufenden</h2>
          <p className="text-sm text-gray-600 mb-4">
-           Subscribe for the latest VC opportunities and insights.
+           Abonniere unseren Newsletter für die neuesten VC-Angebote und Einblicke.
          </p>
        </div>
 
        <form onSubmit={handleSubmit} className="space-y-3">
          <Input
            type="text"
-           placeholder="First Name"
+           placeholder="Vorname"
            value={firstName}
            onChange={(e) => setFirstName(e.target.value)}
            className="w-full"
@@ -79,7 +79,7 @@ export function NewsletterModal({ isOpen, onClose }: { isOpen: boolean; onClose:
            required
          />
          <Button type="submit" className="w-full bg-primary text-white hover:bg-primary/90" disabled={isSubmitting}>
-           {isSubmitting ? 'Subscribing...' : 'Subscribe'}
+           {isSubmitting ? 'Abonnieren...' : 'Abonnieren'}
          </Button>
        </form>
      </div>

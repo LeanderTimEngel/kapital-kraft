@@ -20,7 +20,7 @@ export function CVPreview() {
           </div>
           <div className="flex justify-between text-gray-600">
             <em>Master of Business Administration</em>
-            <span>Abschluss 2022</span>
+            <span>Abschluss 2024</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Abschluss mit Auszeichnung (Note: 1,3)</li>
@@ -34,7 +34,7 @@ export function CVPreview() {
           </div>
           <div className="flex justify-between text-gray-600">
             <em>Bachelor of Science in Wirtschaftsinformatik</em>
-            <span>10/2016 - 09/2020</span>
+            <span>10/2018 - 09/2022</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Abschluss mit Auszeichnung (Note: 1,5)</li>
@@ -53,7 +53,7 @@ export function CVPreview() {
           </div>
           <div className="flex justify-between text-gray-600">
             <em>Venture Capital Praktikant</em>
-            <span>05/2021 - 08/2021</span>
+            <span>05/2023 - 08/2023</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Mitwirkung bei Due Diligence und Erstellung des CIM</li>
@@ -68,7 +68,7 @@ export function CVPreview() {
           </div>
           <div className="flex justify-between text-gray-600">
             <em>Produktmanagement Praktikant</em>
-            <span>05/2020 - 08/2020</span>
+            <span>05/2022 - 08/2022</span>
           </div>
           <ul className="list-disc list-inside text-gray-600 mt-1">
             <li>Design und Implementierung von A/B-Tests</li>
@@ -93,8 +93,8 @@ export function CVPreview() {
       <section>
         <h2 className="text-lg font-semibold uppercase text-gray-800 mb-2">Zusätzliche Informationen</h2>
         <ul className="list-disc list-inside text-gray-600">
-          <li>Aufbau einer Slack-Community mit über 2500 Mitgliedern</li>
-          <li>Erfolgreiche Einwerbung von 500.000 € für ein Tech-Startup</li>
+          <li>Aufbau einer Slack-Community mit über 500 Mitgliedern</li>
+          <li>Erfolgreiche Einwerbung von 10.000 € für ein Tech-Startup</li>
           <li>Teilnahme an Hackathons und Innovationsprojekten</li>
           <li>Sportlich aktiv: Marathonläufer mit Bestzeit von 3:30 Stunden</li>
         </ul>

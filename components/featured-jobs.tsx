@@ -3,10 +3,12 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 
 const jobs = [
-  { id: 1, title: "VC Analyst Praktikum", company: "High-Tech Gründerfonds", location: "Berlin", logo: "/logos/htgf.png", type: "Praktikum", posted: "Gestern" },
-  { id: 2, title: "Junior Investment Manager", company: "Earlybird Venture Capital", location: "München", logo: "/logos/earlybird.png", type: "Vollzeit", posted: "Vor 3 Tagen" },
-  { id: 3, title: "Werkstudent VC", company: "Project A Ventures", location: "Berlin", logo: "/logos/projecta.png", type: "Teilzeit", posted: "Vor einer Woche" },
-  { id: 4, title: "Associate", company: "Lakestar", location: "Zürich", logo: "/logos/lakestar.png", type: "Vollzeit", posted: "Vor 2 Wochen" },
+  { id: 1, title: "VC Analyst Praktikum", company: "High-Tech Gründerfonds", location: "Berlin", logo: "/logos/htgf.jpeg", type: "Praktikum", posted: "Gestern" },
+  { id: 2, title: "Junior Investment Manager", company: "Earlybird Venture Capital", location: "München", logo: "/logos/earlybird.jpeg", type: "Vollzeit", posted: "Vor 3 Tagen" },
+  { id: 3, title: "Werkstudent VC", company: "Project A Ventures", location: "Berlin", logo: "/logos/projecta.jpeg", type: "Teilzeit", posted: "Vor einer Woche" },
+  { id: 4, title: "Associate", company: "Lakestar", location: "Zürich", logo: "/logos/lakestar.jpeg", type: "Vollzeit", posted: "Vor 2 Wochen" },
+  { id: 5, title: "VC Analyst", company: "Speedinvest", location: "Berlin", logo: "/logos/speedinvest.jpeg", type: "Vollzeit", posted: "Vor 3 Wochen" },
+  { id: 6, title: "Visiting Analyst", company: "Holtzbrinck Ventures", location: "München", logo: "/logos/holtzbrinck.jpeg", type: "Vollzeit", posted: "Vor 3 Wochen" },
 ]
 
 export function FeaturedJobs() {
