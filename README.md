@@ -5,7 +5,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC.svg)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-FundKarriere.de ist die führende KI-gestützte Jobplattform für Venture Capital und Startup-Karrieren im deutschsprachigen Raum. Unsere Plattform verbindet talentierte Fachkräfte mit den besten Möglichkeiten im deutschen VC-Ökosystem.
+FundKarriere.de ist eine KI-gestützte Jobplattform für Venture Capital und Startup-Karrieren im deutschsprachigen Raum. Unsere Plattform verbindet talentierte Fachkräfte mit den besten Möglichkeiten im deutschen VC-Ökosystem.
 
 ![FundKarriere.de Screenshot](public/screenshot.png)
 
