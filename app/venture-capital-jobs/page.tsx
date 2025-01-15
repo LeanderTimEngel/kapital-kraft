@@ -80,7 +80,7 @@ export default function VCJobs() {
         "hiringOrganization": {
           "@type": "Organization",
           "name": job.company,
-          "logo": `https://nexusvc.de${job.logo}`
+          "logo": `https://fundkarriere.de${job.logo}`
         },
         "jobLocation": {
           "@type": "Place",

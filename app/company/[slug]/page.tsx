@@ -29,18 +29,18 @@ export async function generateMetadata({ params }: CompanyParams): Promise<Metad
   }
 
   return {
-    title: `${company.name} | KapitalKraft`,
+    title: `${company.name} | FundKarriere`,
     description: `Erfahren Sie mehr über ${company.name}, ein führendes Venture-Capital-Unternehmen in Deutschland. Gegründet ${company.founded}, mit Fokus auf ${company.investmentFocus?.join(', ')}.`,
     openGraph: {
-      title: `${company.name} | KapitalKraft`,
+      title: `${company.name} | FundKarriere`,
       description: `Erfahren Sie mehr über ${company.name}, ein führendes Venture-Capital-Unternehmen in Deutschland. Gegründet ${company.founded}, mit Fokus auf ${company.investmentFocus?.join(', ')}.`,
-      images: [{ url: `https://kapitalkraft.de${company.logo}`, width: 800, height: 600, alt: `${company.name} Logo` }],
+      images: [{ url: `https://fundkarriere.de${company.logo}`, width: 800, height: 600, alt: `${company.name} Logo` }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${company.name} | KapitalKraft`,
+      title: `${company.name} | FundKarriere`,
       description: `Erfahren Sie mehr über ${company.name}, ein führendes Venture-Capital-Unternehmen in Deutschland. Gegründet ${company.founded}, mit Fokus auf ${company.investmentFocus?.join(', ')}.`,
-      images: [`https://kapitalkraft.de${company.logo}`],
+      images: [`https://fundkarriere.de${company.logo}`],
     },
   }
 }

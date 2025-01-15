@@ -22,56 +22,56 @@ export async function postJob(formData: FormData) {
   try {
     // Send confirmation email to the job poster
     await resend.emails.send({
-      from: 'KapitalKraft Jobs <leanderengel99@gmail.com>',
+      from: 'FundKarriere Jobs <leanderengel99@gmail.com>',
       to: jobData.contactEmail as string,
-      subject: 'Job Posting Submission Confirmation: ' + jobData.jobTitle,
+      subject: 'Job-Anmeldung bei FundKarriere: ' + jobData.jobTitle,
       html: `
-        <h1>Thank you for submitting your job posting to VentureBoard!</h1>
+        <h1>Danke für deine Job-Anmeldung bei FundKarriere!</h1>
         <p>Your job posting for "${jobData.jobTitle}" at ${jobData.company} has been received and is being reviewed.</p>
-        <h2>Next Steps:</h2>
+        <h2>Nächste Schritte:</h2>
         <ol>
-          <li>Our team will review your submission within 1-2 business days.</li>
-          <li>If approved, your job will be published and promoted on our platform.</li>
-          <li>You'll receive another email notification once your job is live.</li>
+          <li>Unser Team wird deine Job-Anmeldung innerhalb von 1-2 Werktagen überprüfen.</li>
+          <li>Wenn deine Job-Anmeldung genehmigt wird, wird dein Job auf unserer Plattform veröffentlicht und vermarktet.</li>
+          <li>Du erhältst eine weitere E-Mail-Benachrichtigung, sobald dein Job live ist.</li>
         </ol>
         <h2>Job Details:</h2>
         <ul>
-          <li><strong>Title:</strong> ${jobData.jobTitle}</li>
-          <li><strong>Company:</strong> ${jobData.company}</li>
-          <li><strong>Location:</strong> ${jobData.location}</li>
-          <li><strong>Type:</strong> ${jobData.jobType}</li>
+          <li><strong>Titel:</strong> ${jobData.jobTitle}</li>
+          <li><strong>Unternehmen:</strong> ${jobData.company}</li>
+          <li><strong>Standort:</strong> ${jobData.location}</li>
+          <li><strong>Typ:</strong> ${jobData.jobType}</li>
         </ul>
-        <p>If you have any questions or need to make changes to your submission, please contact our support team.</p>
+        <p>Wenn du Fragen hast oder deine Job-Anmeldung ändern musst, wende dich bitte an unser Support-Team.</p>
       `
     })
 
     // Send notification to admin
     await resend.emails.send({
-      from: 'KapitalKraft Jobs <leanderengel99@gmail.com>',
+      from: 'FundKarriere Jobs <leanderengel99@gmail.com>',
       to: 'team@resend.dev', // Replace with your admin email
-      subject: 'New Job Posting for Review: ' + jobData.jobTitle,
+      subject: 'Neue Job-Anmeldung für Überprüfung: ' + jobData.jobTitle,
       html: `
-        <h1>New Job Posting Submitted</h1>
-        <p>A new job has been submitted to VentureBoard for review:</p>
+        <h1>Neue Job-Anmeldung für Überprüfung</h1>
+        <p>Eine neue Job-Anmeldung wurde eingereicht:</p>
         <h2>Job Details:</h2>
         <ul>
-          <li><strong>Title:</strong> ${jobData.jobTitle}</li>
-          <li><strong>Company:</strong> ${jobData.company}</li>
-          <li><strong>Location:</strong> ${jobData.location}</li>
-          <li><strong>Type:</strong> ${jobData.jobType}</li>
-          <li><strong>Salary:</strong> ${jobData.salary || 'Not specified'}</li>
+          <li><strong>Titel:</strong> ${jobData.jobTitle}</li>
+          <li><strong>Unternehmen:</strong> ${jobData.company}</li>
+          <li><strong>Standort:</strong> ${jobData.location}</li>
+          <li><strong>Typ:</strong> ${jobData.jobType}</li>
+          <li><strong>Salar:</strong> ${jobData.salary || 'Not specified'}</li>
           <li><strong>Apply Link:</strong> ${jobData.applyLink}</li>
-          <li><strong>Contact Email:</strong> ${jobData.contactEmail}</li>
+          <li><strong>Kontakt E-Mail:</strong> ${jobData.contactEmail}</li>
         </ul>
-        <h2>Job Description:</h2>
+        <h2>Job Beschreibung:</h2>
         <p>${jobData.description}</p>
-        <h2>Company Description:</h2>
+        <h2>Unternehmensbeschreibung:</h2>
         <p>${jobData.companyDescription}</p>
-        <h2>Requirements:</h2>
+        <h2>Anforderungen:</h2>
         <p>${jobData.requirements}</p>
-        <h2>Benefits:</h2>
+        <h2>Vorteile:</h2>
         <p>${jobData.benefits}</p>
-        <p>Please review this submission and approve or reject it in the admin panel.</p>
+        <p>Bitte überprüfe diese Anmeldung und genehmige oder lehne sie in der Admin-Oberfläche ab.</p>
       `
     })
 

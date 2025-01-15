@@ -12,7 +12,7 @@ export function Footer() {
          <div className="space-y-4">
            <Link href="/" className="flex items-center space-x-2">
              <Logo className="w-8 h-8" />
-             <span className="text-white font-serif text-2xl font-semibold">KapitalKraft</span>
+             <span className="text-white font-serif text-2xl font-semibold">FundKarriere</span>
            </Link>
            <p className="text-gray-400 text-sm">
              Die führende Jobbörse für Venture Capital und Startup-Karrieren.
@@ -54,7 +54,7 @@ export function Footer() {
 
        <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col items-center">
          <p className="text-gray-400 text-sm text-center">
-           © {new Date().getFullYear()} KapitalKraft. Alle Rechte vorbehalten.
+           © {new Date().getFullYear()} FundKarriere. Alle Rechte vorbehalten.
          </p>
          <div className="flex items-center space-x-4 mt-4">
            <Link href="/about" className="text-gray-400 hover:text-white text-sm transition-colors">Über uns</Link>

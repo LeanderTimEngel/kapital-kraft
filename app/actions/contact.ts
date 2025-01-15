@@ -16,7 +16,7 @@ export async function submitContactForm(formData: FormData) {
 
   try {
     await resend.emails.send({
-      from: 'KapitalKraft Contact <leanderengel99@gmail.com>',
+      from: 'FundKarriere Contact <leanderengel99@gmail.com>',
       to: 'team@resend.dev',
       subject: `Neue Kontaktanfrage: ${subject}`,
       html: `

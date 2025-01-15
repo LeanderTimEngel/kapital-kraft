@@ -46,7 +46,7 @@ export function SocialProof() {
         </div>
         <div className="mt-16 text-center">
           <p className="text-lg text-gray-600">
-            Schließe dich erfolgreichen VC-Profis an, die ihre Karriere durch NexusVC gestartet haben
+            Schließe dich erfolgreichen VC-Profis an, die ihre Karriere durch FundKarriere gestartet haben
           </p>
           <p className="text-sm text-gray-500 mt-2">
             *Basierend auf unseren Vermittlungsdaten und Nutzerbefragungen von 2024

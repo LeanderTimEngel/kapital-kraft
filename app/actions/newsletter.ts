@@ -23,19 +23,19 @@ export async function subscribeToNewsletter(formData: FormData) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'KapitalKraft <leanderengel99@gmail.com>',
+      from: 'FundKarriere <leanderengel99@gmail.com>',
       to: [email], // Send to the subscriber's email
-      subject: 'Welcome to VentureBoard Newsletter',
+      subject: 'Willommen zum FundKarriere   Newsletter',
       html: `
-        <h1>Welcome to VentureBoard!</h1>
+        <h1>Willommen zum FundKarriere Newsletter</h1>
         <p>Hi ${firstName || 'there'},</p>
-        <p>Thank you for subscribing to our newsletter. You'll now receive weekly updates about:</p>
+        <p>Danke für deine Anmeldung zum FundKarriere Newsletter. Hier findest du die wichtigsten Informationen zu:</p>
         <ul>
-          <li>Latest VC job opportunities</li>
-          <li>Industry insights</li>
-          <li>Career tips and resources</li>
+          <li>Neuesten VC Jobs</li>
+          <li>Brancheninsights</li>
+          <li>Karriere-Tipps und Ressourcen</li>
         </ul>
-        <p>Best regards,<br>The VentureBoard Team</p>
+        <p>Liebe Grüße,<br>Dein FundKarriere Team</p>
       `,
       // Also BCC our team
       bcc: 'team@resend.dev'
@@ -43,14 +43,14 @@ export async function subscribeToNewsletter(formData: FormData) {
 
     if (error) {
       console.error('Error sending email:', error)
-      return { error: 'Failed to subscribe. Please try again later.' }
+      return { error: 'Failed to subscribe. Bitte versuche es später erneut.' }
     }
 
     console.log('Email sent successfully:', data)
     return { success: true }
   } catch (error) {
     console.error('Failed to send email:', error)
-    return { error: 'Failed to subscribe. Please try again later.' }
+    return { error: 'Failed to subscribe. Bitte versuche es später erneut.' }
   }
 }
 

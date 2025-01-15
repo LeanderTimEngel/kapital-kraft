@@ -30,7 +30,7 @@ export function Navbar() {
          <div className="flex items-center justify-between h-16">
            <Link href="/" className="flex items-center space-x-2">
              <Logo className="w-10 h-10" />
-             <span className="text-primary font-serif text-2xl font-semibold">KapitalKraft</span>
+             <span className="text-primary font-serif text-2xl font-semibold">FundKarriere.de</span>
            </Link>
            
            <div className="hidden md:flex items-center space-x-6">
@@ -79,7 +79,7 @@ export function Navbar() {
                <div className="flex justify-between items-center p-4 border-b">
                  <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMenuOpen(false)}>
                    <Logo className="w-8 h-8" />
-                   <span className="text-primary font-serif text-xl font-semibold">KapitalKraft</span>
+                   <span className="text-primary font-serif text-xl font-semibold">FundKarriere</span>
                  </Link>
                  <Button 
                    variant="ghost" 

@@ -8,13 +8,13 @@ const testimonials = [
     avatar: "/avatars/lisa-mueller.jpg"
   },
   {
-    content: "Als Personalverantwortlicher habe ich über NexusVC außergewöhnliche Talente für unser Team gefunden. Die Qualität der Kandidaten und die Effizienz der Plattform sind unübertroffen.",
+    content: "Als Personalverantwortlicher habe ich über FundKarriere außergewöhnliche Talente für unser Team gefunden. Die Qualität der Kandidaten und die Effizienz der Plattform sind unübertroffen.",
     author: "Markus Schmidt",
     role: "Partner bei High-Tech Gründerfonds",
     avatar: "/avatars/markus-schmidt.jpg"
   },
   {
-    content: "Die CV-Vorlage und Karriereressourcen auf NexusVC waren entscheidend für meinen Einstieg ins Venture Capital. Ich habe den Sprung von einem Tech-Background zu einer VC-Analyst-Position in nur 2 Monaten geschafft!",
+    content: "Die CV-Vorlage und Karriereressourcen auf FundKarriere waren entscheidend für meinen Einstieg ins Venture Capital. Ich habe den Sprung von einem Tech-Background zu einer VC-Analyst-Position in nur 2 Monaten geschafft!",
     author: "Julia Weber",
     role: "Analyst bei Earlybird Venture Capital",
     avatar: "/avatars/julia-weber.jpg"
@@ -26,7 +26,7 @@ export function Testimonials() {
     <section className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12 font-serif">
-          Erfolgsgeschichten aus der NexusVC-Community
+          Erfolgsgeschichten aus der FundKarriere-Community
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

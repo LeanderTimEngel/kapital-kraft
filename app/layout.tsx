@@ -11,23 +11,23 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'KapitalKraft - KI-gestützte VC-Jobvermittlung',
-    template: '%s | KapitalKraft'
+    default: 'FundKarriere - KI-gestützte VC-Jobvermittlung',
+    template: '%s | FundKarriere'
   },
   description: 'Finden Sie Ihren Traumjob im deutschen Venture Capital und Startup-Ökosystem mit KI-gestützter Jobvermittlung.',
   keywords: ['venture capital', 'startups', 'jobs', 'KI-Matching', 'Karriere', 'Deutschland'],
-  authors: [{ name: 'KapitalKraft Team' }],
-  creator: 'KapitalKraft',
-  publisher: 'KapitalKraft',
-  metadataBase: new URL('https://kapitalkraft.de'),
+  authors: [{ name: 'FundKarriere Team' }],
+  creator: 'FundKarriere',
+  publisher: 'FundKarriere',
+  metadataBase: new URL('https://fundkarriere.de'),
   openGraph: {
-    title: 'KapitalKraft - KI-gestützte VC-Jobvermittlung',
+    title: 'FundKarriere - KI-gestützte VC-Jobvermittlung',
     description: 'Finden Sie Ihren Traumjob im deutschen Venture Capital und Startup-Ökosystem mit KI-gestützter Jobvermittlung.',
-    url: 'https://kapitalkraft.de',
-    siteName: 'KapitalKraft',
+    url: 'https://fundkarriere.de',
+    siteName: 'FundKarriere',
     images: [
       {
-        url: 'https://kapitalkraft.de/og-image.jpg',
+        url: 'https://fundkarriere.de/og-image.jpg',
         width: 1200,
         height: 630,
       },
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'KapitalKraft - KI-gestützte VC-Jobvermittlung',
+    title: 'FundKarriere - KI-gestützte VC-Jobvermittlung',
     description: 'Finden Sie Ihren Traumjob im deutschen Venture Capital und Startup-Ökosystem mit KI-gestützter Jobvermittlung.',
-    creator: '@kapitalkraft',
-    images: ['https://kapitalkraft.de/twitter-image.jpg'],
+    creator: '@fundkarriere',
+    images: ['https://fundkarriere.de/twitter-image.jpg'],
   },
   robots: {
     index: true,
