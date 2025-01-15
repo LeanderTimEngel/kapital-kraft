@@ -7,7 +7,7 @@
 
 FundKarriere.de ist eine KI-gestützte Jobplattform für Venture Capital und Startup-Karrieren im deutschsprachigen Raum. Unsere Plattform verbindet talentierte Fachkräfte mit den besten Möglichkeiten im deutschen VC-Ökosystem.
 
-![FundKarriere.de Screenshot](public/hero.png)
+![FundKarriere.de Screenshot](public/images/hero.png)
 
 ## 🌟 Features
 
