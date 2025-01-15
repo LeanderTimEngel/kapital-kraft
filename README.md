@@ -1,8 +1,8 @@
 # FundKarriere.de 🚀
 
-[![Next.js](https://img.shields.io/badge/Next.js-13.4-blueviolet.svg)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-38B2AC.svg)](https://tailwindcss.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-blueviolet.svg)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC.svg)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 FundKarriere.de ist die führende KI-gestützte Jobplattform für Venture Capital und Startup-Karrieren im deutschsprachigen Raum. Unsere Plattform verbindet talentierte Fachkräfte mit den besten Möglichkeiten im deutschen VC-Ökosystem.
@@ -17,19 +17,25 @@ FundKarriere.de ist die führende KI-gestützte Jobplattform für Venture Capita
 
 ## 🚀 Quickstart
 
-\`\`\`bash
+```bash
 # Repository klonen
 git clone https://github.com/yourusername/fundkarriere.git
+```
 
+```bash
 # In das Projektverzeichnis wechseln
 cd fundkarriere
+```
 
+```bash
 # Dependencies installieren
 npm install
+```
 
+```bash
 # Entwicklungsserver starten
 npm run dev
-\`\`\`
+```
 
 Öffnen Sie [http://localhost:3000](http://localhost:3000) in Ihrem Browser.
 
@@ -48,9 +54,9 @@ npm run dev
 
 1. Erstellen Sie eine `.env.local` Datei:
 
-\`\`\`env
+```env
 RESEND_API_KEY=your_resend_api_key
-\`\`\`
+```
 
 2. Passen Sie die `next.config.js` nach Bedarf an
 3. Aktualisieren Sie die Metadaten in `app/layout.tsx`
@@ -61,13 +67,6 @@ RESEND_API_KEY=your_resend_api_key
 |----------|-------------|----------|
 | `RESEND_API_KEY` | API-Key für Email-Versand | Yes |
 
-## 🚥 API Routes
-
-| Route | Methode | Beschreibung |
-|-------|---------|-------------|
-| `/api/newsletter` | POST | Newsletter-Anmeldung |
-| `/api/jobs` | POST | Job-Ausschreibung |
-| `/api/contact` | POST | Kontaktformular |
 
 ## 📄 Lizenz
 
